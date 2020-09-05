@@ -120,6 +120,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)modules\spdlog\include\;</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>$(SolutionDir)App\core\arms\</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,6 +148,7 @@
     <ClCompile Include="core\auth\access.cpp" />
     <ClCompile Include="core\auth\permission.cpp" />
     <ClCompile Include="core\login\account.cpp" />
+    <ClCompile Include="core\shell\console.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\auth\access.h" />

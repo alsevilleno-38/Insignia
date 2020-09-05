@@ -1,0 +1,6 @@
+[submodule "modules/spdlog"]
+	path = modules/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "Ensign/modules/loguru"]
+	path = Ensign/modules/loguru
+	url = https://github.com/emilk/loguru.git

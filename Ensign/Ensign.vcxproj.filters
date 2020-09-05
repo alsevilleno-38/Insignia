@@ -18,10 +18,13 @@
     <ClCompile Include="core\auth\access.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="core\login\account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="core\auth\permission.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="core\login\account.cpp">
+    <ClCompile Include="core\shell\console.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
